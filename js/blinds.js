@@ -21,6 +21,7 @@ $(function() {
 		if (spacer2) {
 			if ( $second.offset().top <= $(document).scrollTop() ) {
 				console.log('second');
+				$('.spacer-1').hide();
 				$second.css({
 					position : 'fixed',
 					top : 0,
